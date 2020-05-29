@@ -1,6 +1,7 @@
 import { API } from "../../backend";
 
 export const signup = user => {
+  console.log("LALALALALALALALALA",API)
   return fetch(`${API}/signup`, {
     method: "POST",
     headers: {
@@ -16,6 +17,7 @@ export const signup = user => {
 };
 
 export const signin = user => {
+  onsole.log("LALALALALALALALALA",API)
   return fetch(`${API}/signin`, {
     method: "POST",
     headers: {
