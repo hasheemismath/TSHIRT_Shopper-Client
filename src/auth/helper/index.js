@@ -17,7 +17,7 @@ export const signup = user => {
 };
 
 export const signin = user => {
-  onsole.log("LALALALALALALALALA",API)
+  console.log("LALALALALALALALALA",API)
   return fetch(`${API}/signin`, {
     method: "POST",
     headers: {
